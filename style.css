@@ -2,84 +2,72 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	margin: 0;
 	padding: 0;
-}
-
-.header{
+}       
+.header {
 	width: 100%;
-	padding: 20px;
 	color: white;
+	padding: 20px;
 	background: #151c39e8;
 }
-
-.menu-item{
+.menu-item {
 	list-style: none;
-	display: inline;
 }
-
-.menu-link{
-	text-decoration: none;
+.menu-link {
 	color: white;
+	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
 }
-
-.counteiner{
+.container {
 	max-width: 1140px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
-.banner-title, .banner-description{
+.banner-title, .banner-description {
 	text-align: center;
 	color: white;
 }
-
-.banner-title{
+.banner-title {
 	font-size: 48px;
 }
-
-.banner-section{
+.banner-section {
 	padding: 100px 0;
-	background-image: url(/img/banner-bg.jpg);
+	background: url(img/banner-bg.jpg);
 	background-size: cover;
 	background-position: center;
 }
-.card:hover{
-	-webkit-box-shadow: 0px 5px 10px 2px rgba(116, 44, 202, 0.39) inset;
-	-moz-box-shadow: 0px 5px 10px 2px rgba(116, 44, 202, 0.39) inset;
-	box-shadow: 0px 5px 10px 2px rgba(116, 44, 202, 0.39) inset;
+.cards-section {
+	padding: 50px 0;
 }
-
-.cards-title, .cards-description{
+.cards-title, .cards-description {
 	color: #151c39;
 	text-align: center;
 }
-.card{
+.card {
 	width: 25%;
 	padding: 25px;
 	margin: 25px;
-	background-color: white;
+	background: white;
 	box-shadow: 0px 2px 7px 0px #9e90ff;
-	text-align: center;
 }
-.card-link{
+.card-link {
 	text-decoration: none;
 	color: white;
 }
-.card-bottom{
+.card-button {
 	text-align: center;
 	background: #151c39;
 	padding: 10px 70px;
 	border-radius: 10px;
 }
-.card-title, .card-text{
+.card-title, .card-text {
 	margin-bottom: 10px;
-	padding: 5px 10px;
 }
-.footer{
-	background-image: url(/img/footer-bg.jpg);
+.footer {
+	background: url(img/footer-bg.jpg);
 	background-size: cover;
 	padding: 100px 0;
 }
-.copyright{
+.copyright {
 	color: white;
 }
